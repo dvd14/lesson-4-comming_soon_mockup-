@@ -1,0 +1,43 @@
+.wrapper{
+  margin: auto;
+width: 980px;
+}
+.upper{
+  width: 980px;
+  height: 343px;
+  background-color: rgb(183, 173, 144);
+  color: rgb(254, 209, 152);
+  text-align: center;
+}
+.main-text{
+  text-align: center;
+  font-size: 70px;
+  color: rgb(254,254,254);
+  font-family: "Houschka Pro";
+  font-weight: bold;
+  text-shadow: 2px 3.464px 0px rgba(0,0,0,0.17);
+}
+.add-text{
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgb(38,107,151);
+  font-family: "Houschka Pro";
+}
+.lower{
+  background-color: rgb(43, 82, 91);
+  width: 980px;
+  height: 343px;
+}
+.timing{
+  text-align: -webkit-center;
+}
+.days, .hours, .mins{
+  display: inline-block;
+  margin-right: 40px;
+  background-color: rgb(183, 173, 144);
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  color: rgb(71, 102, 102);
+}
