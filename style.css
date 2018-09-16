@@ -5,44 +5,92 @@
 }
 .upper{
   width: 980px;
-  height: 637px;
+  height: 677px;
   background-color: rgb(182, 209, 239);
   color: rgb(254, 209, 152);
   text-align: center;
 }
-.header-img img{
+.header-img{
   margin-top: -180px;
 }
+.text{
+  margin-top: 52px;
+}
 .main-text span{
-height: 51px;
-text-shadow: 2px 4px 0 rgba(0, 0, 0, 0.17);
-color: #fefefe;
-font-family: "Houschka Pro";
-font-size: 72px;
-font-weight: 700;
-text-transform: uppercase;
+  height: 51px;
+  text-shadow: 2px 4px 0 rgba(0, 0, 0, 0.17);
+  color: #fefefe;
+  font-family: "Houschka Pro";
+  font-size: 72px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.add-text span{
+  width: 284px;
+  height: 10px;
+  color: #266b97;
+  font-family: "Houschka Pro";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-transform: uppercase;
+  
+}
+input[type="email"]{
+  width: 240px;
+  height: 37px;
+  box-shadow: 0 1px 0 #ffffff, inset 0 2px 5px rgba(29, 26, 22, 0.2), inset 0 0 2px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  margin-right: 6px;
+}
+input[type="submit"]{
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: -0.9px;
+  cursor: pointer;
+  width: 90px;
+  height: 34px;
+  border: 1px solid #e68e16;
+  background-color: #fab937;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 20%, rgba(255, 255, 255, 0.3) 100%);
 }
 .add-text{
-  text-align: center;
-  font-size: 14px;
-  line-height: 16px;
-  color: rgb(38,107,151);
-  font-family: "Houschka Pro";
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.ice{
+  margin-top: 30px;
 }
 .lower{
   background-color: rgb(43, 100, 152);
   width: 980px;
-  height: 343px;
+  height: 323px;
 }
 .timing{
   text-align: -webkit-center;
+  padding-top: 60px;
+  margin-left: 25px;
 }
 .days, .hours, .mins{
   display: inline-block;
-  margin-right: 40px;
-  background-color: rgb(183, 173, 144);
+  margin-right: 33px;
+  background-color: rgb(183, 210, 240);
   width: 70px;
   height: 70px;
   border-radius: 35px;
   color: rgb(71, 102, 102);
+}
+.ddd, .hhh, .mmm{
+  width: 39px;
+  height: 17px;
+  font-size: 24px;
+  color: #266b97;
+  margin-top: 20px;
+}
+.counter{
+  margin-top: 40px;
+  font-size: 24px;
+  color: rgb(243, 243, 243);
+  font-weight: bold;
 }
