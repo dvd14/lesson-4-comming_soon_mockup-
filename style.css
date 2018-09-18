@@ -10,17 +10,18 @@
   color: rgb(254, 209, 152);
   text-align: center;
   margin-bottom: 4px;
+  /* z-index: -1; */
 }
 .surface{
   width: 980px;
-  height: 9px;
+  height: 12px;
   background-color: #266b97;
-  position: relative;
+  /* z-index: -1; */
 }
 .ship{
-  position: absolute;
-  top: -15px;
-  left: 300px;
+  /* position: absolute;
+  top: 495px;
+  left: 480px; */
 }
 .header-img{
   margin-top: -180px;
@@ -53,6 +54,7 @@ input[type="email"]{
   box-shadow: 0 1px 0 #ffffff, inset 0 2px 5px rgba(29, 26, 22, 0.2), inset 0 0 2px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
   margin-right: 6px;
+  border-radius: 4px;
 }
 input[type="submit"]{
   color: #ffffff;
@@ -71,7 +73,8 @@ input[type="submit"]{
   margin-top: 10px;
 }
 .ice{
-  margin-top: 37px;
+  text-align: -webkit-center;
+  margin-top: -200px;
 }
 .lower{
   background-color: rgb(43, 100, 152);
@@ -80,8 +83,7 @@ input[type="submit"]{
 }
 .timing{
   text-align: -webkit-center;
-  padding-top: 60px;
-  margin-left: 25px;
+  margin-top: -250px;
 }
 .days, .hours, .mins{
   display: inline-block;
