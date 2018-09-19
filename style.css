@@ -83,8 +83,8 @@ input[type="submit"]{
 }
 .timing{
   text-align: -webkit-center;
-  margin-top: -245px;
-  margin-left: 40px;
+  margin-top: -240px;
+  margin-left: 30px;
 }
 .days, .hours, .mins{
   display: inline-block;
