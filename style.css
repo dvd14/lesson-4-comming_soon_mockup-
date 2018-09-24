@@ -1,26 +1,23 @@
-
-html{
-  width: 100%;
-  height: 100%;
-}
 body{
   font-size: 1vw;
   width: 100vw;
   height: 100vh;
 }
 .wrapper{
-  /* margin: auto; */
+  margin: 0 auto;
   width: 100vw;
   height: 100vh;
 }
 .upper{
-  width: 100vw;
+  width: 100%;
   height: 115vh;
   background-color: rgb(182, 209, 239);
   color: rgb(254, 209, 152);
   text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: 1vh;
   z-index: -1;
+  margin: 0 auto;
+
 }
 .surface{
   width: 100vw;
@@ -29,11 +26,18 @@ body{
   height: 10px;
 }
 .ship{
-  margin-top: -25px;
-  margin-left: 310px;
+  width: 5vw;
+  height: 4vh;
+  margin-top: -2.5vw;
+  margin-left: 32vw;
 }
 .header-img{
-  margin-top: -180px;
+  margin-top: -30vh;
+  align-content: center;
+}
+.header-img > img{
+  width: 72vw;
+  height: 40vh;
 }
 .text{
   margin-top: 52px;
@@ -48,8 +52,8 @@ body{
   text-transform: uppercase;
 }
 .add-text span{
-  width: 284px;
-  height: 10px;
+  /* width: 284px;
+  height: 10px; */
   color: #266b97;
   font-family: "Houschka Pro";
   font-size: 14px;
